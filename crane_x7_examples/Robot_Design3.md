@@ -1,1 +1,1 @@
-	://www.youtube.com/?gl=JP&hl=ja
+http://www.youtube.com/?gl=JP&hl=ja
