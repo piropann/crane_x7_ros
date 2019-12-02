@@ -28,5 +28,5 @@ https://youtu.be/m2CDxoViR-k
 	$ rosrun crane_x7_examples crane_x7_pick_and_place.py
 
 
-※このプログラムでは表示されている物体はつかまないため、動きだけの確認である。
+※このプログラムでは表示されている物体はつかまないため、動きだけの確認である。また、Move itで動きは計算しているため同じ動きにならない可能性があります。
 
