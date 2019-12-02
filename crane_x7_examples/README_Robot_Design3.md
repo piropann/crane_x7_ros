@@ -1,10 +1,10 @@
-使用方法
+## 使用方法
 
 動作確認は[README.md](../crane_x7_examples/README.md)参照
 
 今回使用するプログラムは[crane_x7_pick_and_place.py](../crane_x7_examples/scripts/crane_x7_pick_and_place.py)である。
 
-実機の場合
+### 実機の場合
 
 ①PCにマニピュレータをUSB経由で接続し、次のコマンドを入力
 
@@ -21,7 +21,7 @@
 https://youtu.be/m2CDxoViR-k
 
 
-シミュレータを使う場合
+### シミュレータを使う場合
 
 ①PCでシミュレータを起動するため、以下のコマンドを入力
 
