@@ -1,6 +1,6 @@
 使用方法
 
-動作確認は　README.md　参照
+動作確認は[README.md](../crane_x7_examples/README.md)参照
 
 実機の場合
 
