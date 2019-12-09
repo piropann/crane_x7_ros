@@ -3,17 +3,7 @@
 動作確認は[README.md](../crane_x7_examples/README.md)参照
 
 今回使用するプログラムは[crane_x7_pick_and_place.py](../crane_x7_examples/scripts/crane_x7_pick_and_place.py)である。
-
-#### プログラムダウンロード方法
-
-	$ cd ~/catkin_ws/
-	$ mkdir download
-	$ cd ~/catkin_ws/download/
-	$ git clone　https://github.com/piropann/crane_x7_ros.git
-	$ ( cd ~/catkin_ws && catkin_make )
-	$ rosdep install -r -y --from-paths --ignore-src crane_x7_ros
 	
-
 ### 実機の場合
 
 ①PCにマニピュレータをUSB経由で接続し、次のコマンドを入力
@@ -35,7 +25,7 @@ https://youtu.be/m2CDxoViR-k
 
 ①PCでシミュレータを起動するため、以下のコマンドを入力
 
-	$ roslaunch crane_x7_gazebo crane_x7_with_table launch
+	$ roslaunch crane_x7_gazebo crane_x7_with_table.launch
 
 ②プログラムを実行するため、以下のコマンドを入力
 
