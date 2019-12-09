@@ -4,6 +4,16 @@
 
 今回使用するプログラムは[crane_x7_pick_and_place.py](../crane_x7_examples/scripts/crane_x7_pick_and_place.py)である。
 
+#### プログラムダウンロード方法
+
+	$ cd ~/catkin_ws/
+	$ mkdir download
+	$ cd ~/catkin_ws/download/
+	$ git clone　https://github.com/piropann/crane_x7_ros.git
+	$ ( cd ~/catkin_ws && catkin_make )
+	$ rosdep install -r -y --from-paths --ignore-src crane_x7_ros
+	
+
 ### 実機の場合
 
 ①PCにマニピュレータをUSB経由で接続し、次のコマンドを入力
@@ -33,4 +43,6 @@ https://youtu.be/m2CDxoViR-k
 
 
 ※このプログラムでは表示されている物体はつかまないため、動きだけの確認である。また、Move itで動きは計算しているため同じ動きにならない可能性があります。
+
+
 
