@@ -59,7 +59,7 @@ CRANE_X7の制御信号ケーブルを制御用パソコンへ接続します。
 
 	$ rosrun crane_x7_edge set.py
 
-![bringup](https://github.com/piropann/crane_x7_ros/blob/master/robot_design3/gazou.png "bringup")
+![bringup](https://github.com/piropann/crane_x7_ros/blob/master/crane_x7_examples/srv/ima.jpg "bringup")
 
 ➂realsenseを起動
 
