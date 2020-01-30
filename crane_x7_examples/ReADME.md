@@ -18,11 +18,10 @@ Gazebo 9.0.0
 
 - 'git clone'を使用して本パッケージをダウンロードします。
 
-	
-	$ cd ~/catkin_ws/src/crane_x7_ros
-
-	$ git clone -b final https://github.com/shuta-tech/crane_x7_ros/tree/final/crane_x7_edge
-
+```sh	
+cd ~/catkin_ws/src/crane_x7_ros
+git clone -b final https://github.com/shuta-tech/crane_x7_ros/tree/final/crane_x7_edge
+```
 
 ダウンロードして、実行許可がない場合は次のコマンドで許可与えてください。
 
