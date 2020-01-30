@@ -47,7 +47,12 @@ CRANE_X7の制御信号ケーブルを制御用パソコンへ接続します。
 
 ### 実機
 
-①PCにマニピュレータをUSB経由で接続し、次のコマンドを入力
+①準備
+画像のように物体を置く
+
+![bringup](https://github.com/piropann/crane_x7_ros/blob/master/crane_x7_examples/srv/wef.png "bringup")
+
+②PCにマニピュレータをUSB経由で接続し、次のコマンドを入力
 
 	$ sudo chmod 777/dexv/tty/USB0
 
@@ -55,23 +60,26 @@ CRANE_X7の制御信号ケーブルを制御用パソコンへ接続します。
 
 	$ roslaunch crane_x7_control crane_x7_control.launch
 
-②マニピュレータを初期姿勢に移動するため、次のコマンドを入力
+➂マニピュレータを初期姿勢に移動するため、次のコマンドを入力
 
 	$ rosrun crane_x7_edge set.py
 
 ![bringup](https://github.com/piropann/crane_x7_ros/blob/master/crane_x7_examples/srv/ima.jpg "bringup")
 
-➂realsenseを起動
+➃realsenseを起動
 
 	$ roslaunch realsense2_camera rs_camera.launch
 
-➃マニピュレータのプログラムを以下のコードで起動
+➄マニピュレータのプログラムを以下のコードで起動
 
 	$ rosrun crane_x7_edge  rosrun crane_x7_edge crane_x7_pick_and_place_demo.py
 
-➄10秒ほど待って、検出プログラム起動
+
+➅10秒ほど待って、検出プログラム起動
 
 	$ rosrun crane_x7_edge edg input:=/camera/color/image_raw
+
+![bringup](https://github.com/piropann/crane_x7_ros/blob/master/crane_x7_examples/srv/123.png "bringup")
 
 プログラムを実行した際の成功動画
 
