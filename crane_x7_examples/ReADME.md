@@ -13,6 +13,7 @@ Gazebo 9.0.0
 
 - 'git clone'を使用して本パッケージをダウンロードします。
 
+
 	$ cd ~/catkin_ws/src/crane_x7_ros
 
 	$ git clone -b final https://github.com/shuta-tech/crane_x7_ros/tree/final/crane_x7_edge
@@ -25,9 +26,11 @@ Gazebo 9.0.0
 - 追加したパッケージをコンパイルしてくれるように~/catkin_ws/src/crane_x7_ros/crane_xにあるpackage.xmlに記入
   以下の写真のように26行目に以下の文を追加
 
+
 	$ <run_depend>crane_x7_robot_edge</run_depend>
 
 - 'catkin_make'を使用して本パッケージをビルドします。
+
 
 	$ cd ~/catkin_ws && catkin_make
 
