@@ -3,17 +3,22 @@
 以下の環境にて動作確認を行っています。
 
 ROS Melodic
+
 OS: Ubuntu 18.04.3 LTS
+
 ROS Distribution: Melodic Morenia 1.14.3
+
 Rviz 1.12.16
+
 MoveIt! 1.13.3
+
 Gazebo 9.0.0
 
 ## インストール方法
 
 - 'git clone'を使用して本パッケージをダウンロードします。
 
-
+	
 	$ cd ~/catkin_ws/src/crane_x7_ros
 
 	$ git clone -b final https://github.com/shuta-tech/crane_x7_ros/tree/final/crane_x7_edge
